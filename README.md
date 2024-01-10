@@ -1,12 +1,12 @@
 **PInelabs Edge**
 
-This is a OpenCart Extension
+OpenCart Extension
 
-**How to install**
+**Installation Process**
 
 **Installing an extension**
 
-Usually OpenCart 2.x extensions come packed in a zip, which contains installation and/or update instructions, sometimes a release log and another zip, whose name ends in "**.ocmod.zip**". Extension Installer recognizes such zips and uploads their content directly to the FTP root of your store. That said, it will produce an error if you try to upload zips with a name that is not in the "**\*.ocmod.zip" format**.
+Usually OpenCart 2.x extensions are packed in a zip, which contains installation and/or update instructions, sometimes a release log and another zip, whose name ends in "**.ocmod.zip**". Extension Installer recognizes these zips and uploads their content directly to the FTP root of your store. That being said, it will produce an error if you try to upload zip files with a name that is not in the "**\*.ocmod.zip" format**.
 
 In order to upload an extension, navigate to **Extensions → Extension Installer**. Then click the blue **Upload**button and provide the route to your extension' s"**\*.ocmod.zip" archive**.
 
