@@ -71,6 +71,10 @@ class Controllerextensionpaymentpinepg extends Controller {
 			
 			$orderamount = $order_info['total'] * $currency_value;
 
+			if (is_numeric($orderamount) && floor($orderamount) != $orderamount) {
+				$orderamount = ceil($orderamount);
+			}
+
 			$data['ppc_Amount'] = $orderamount;
 
             $product_id = $product['product_id'];
